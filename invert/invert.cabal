@@ -32,8 +32,8 @@ common base
         NamedFieldPuns
         NoImplicitPrelude
     build-depends:
-      , base ^>= 4.18 || ^>= 4.19
-      , containers ^>= 0.6.5
+      , base
+      , containers 
       , hashable ^>= 1.4.2
       , unordered-containers ^>= 0.2.19
       , generic-deriving ^>= 1.14.4
